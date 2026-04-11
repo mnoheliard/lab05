@@ -8,7 +8,7 @@ class ToolBar extends JPanel implements ActionListener {
     public ToolBar() {
         this.setBackground(Color.YELLOW);
 
-        JButton button = new JButton("Tool Bar");
+        JButton button = new JButton("Shapes");
         button.addActionListener(this);
         this.add(button);
     }
